@@ -1,0 +1,45 @@
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+.frame {
+  width: 393px;
+  height: 852px;
+  margin: 20px auto;
+  position: relative;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-radius: 20px;
+  overflow: hidden;
+}
+.rectangle {
+  position: absolute;
+  left: 36px;
+  top: 30px;
+  width: 323px;
+  height: 323px;
+  background: #ca1a1a;
+  border-radius: 43px;
+}
+.title {
+  position: absolute;
+  left: 45px;
+  top: 390px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+}
+.desc {
+  position: absolute;
+  left: 45px;
+  top: 419px;
+  width: 311px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  line-height: 1.2;
+  white-space: pre-line;
+}
